@@ -1,0 +1,14 @@
+<style>
+.pet-status { background-color: #1387C0 !important; box-shadow: 0 4px 10px rgba(19, 135, 192, 0.3) !important; }
+.gender-icon { background-color: rgba(19, 135, 192, 0.15) !important; color: #1387C0 !important; }
+.pet-trait { background-color: #FAEDD1 !important; color: #333 !important; border: 1px solid rgba(253, 109, 46, 0.3) !important; }
+.pet-card { border: 3px solid #FAEDD1 !important; box-shadow: 0 15px 30px rgba(19, 135, 192, 0.35) !important; }
+.pet-card:hover { box-shadow: 0 25px 35px rgba(19, 135, 192, 0.4) !important; border-color: #FD6D2E !important; }
+.pet-name { color: #1387C0 !important; }
+.pet-card:hover .pet-name { color: #FD6D2E !important; }
+@keyframes buttonGlow { 
+  0% { box-shadow: 0 4px 8px rgba(19, 135, 192, 0.1), 0 0 0 0 rgba(19, 135, 192, 0.1) !important; }
+  50% { box-shadow: 0 8px 16px rgba(19, 135, 192, 0.2), 0 0 0 10px rgba(19, 135, 192, 0.05) !important; }
+  100% { box-shadow: 0 4px 8px rgba(19, 135, 192, 0.1), 0 0 0 0 rgba(19, 135, 192, 0.1) !important; }
+}
+</style>
